@@ -10,9 +10,11 @@
   ],
   "extends": "./tsconfig.app.json",
   "compilerOptions": {
+    "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
-  }
+    },
+    "types": ["vue"]
+  },
 }
